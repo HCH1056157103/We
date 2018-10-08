@@ -14,10 +14,11 @@
         }
         @keyframes myfirst
         {
-            from {background:red;}
-            to {background:green;}
+            from {opacity: 0}
+            to {opacity: 100}
         }
-h1{animation：myfirst 1s;
+h1,p{
+    animation: myfirst 1s infinite;
 }
     </style>
 </head>
